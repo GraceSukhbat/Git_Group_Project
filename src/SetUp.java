@@ -6,6 +6,8 @@ public class SetUp {
     //try to practice git with the group
 
     // more changes
+    // hello world
+    // updates from Mariia
+    // need more updates
     // Hello guys- jamil
-
 }
