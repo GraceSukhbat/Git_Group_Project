@@ -10,6 +10,11 @@ public class SetUp {
     // updates from Mariia
     // need more updates
 
+    // Monday 04/18/2022
+    // extra session
+
+    // Mariia 04/21/2022
+
     // new update from Jamil
 
     // raluca made some changes
@@ -23,17 +28,10 @@ public class SetUp {
 
     //  Mary update
 
-
-
     // new updates from Grace 4/21/22
 
-
-
-
-
-
-
     // updated by ayse
+
 
 
 
