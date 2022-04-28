@@ -1,3 +1,5 @@
+package Extra_Tasks;
+
 import java.util.Scanner;
 
 public class Q7concat_Ex1 {
