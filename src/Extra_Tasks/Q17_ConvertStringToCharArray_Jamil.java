@@ -1,10 +1,9 @@
-package Exercise;
+package Extra_Tasks;
 
 
-    import java.lang.reflect.Array;
-     import java.util.Arrays;
+    import java.util.Arrays;
 
-    public class ConvertStringToCharArray {
+    public class Q17_ConvertStringToCharArray_Jamil {
         /*
         17. Write a Java program to get the contents of a given string as a character array. Go to the editor
 
