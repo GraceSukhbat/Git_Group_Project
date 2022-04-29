@@ -13,7 +13,7 @@ public class QAO_Romanian_to_Arrabic {
         String givenNumber1 = "III";
         String givenNumber2 = "LVIII";
         String givenNumber3 = "LV";
-        String givenNumber4  = "CXXV";
+        String givenNumber4 = "CXXV";
 
         CountRtoAr( givenNumber );
         CountRtoAr( givenNumber1 );
@@ -71,6 +71,10 @@ public class QAO_Romanian_to_Arrabic {
                         number = 200;
                         total += number;
                         i++;
+                    } else {
+                        number = 100;
+                        total += number;
+
                     }
                     break;
                 case 'V':
@@ -91,19 +95,25 @@ public class QAO_Romanian_to_Arrabic {
 
             }
             if (i == givenNumber.length() - 2) {
-                if (givenNumber.charAt( i ) == 'I') {
-                    total +=1;}
-                if (givenNumber.charAt( i ) == 'V') {
-                    total +=5;}
-                if (givenNumber.charAt( i ) == 'X') {
-                    total +=10;}
-                if (givenNumber.charAt( i ) == 'C') {
-                    total +=500;}
-                if (givenNumber.charAt( i ) == 'M') {
-                    total +=1000;}
+                if (givenNumber.charAt( i + 1 ) == 'I') {
+                    total += 1;
+                }
+                if (givenNumber.charAt( i + 1 ) == 'V') {
+                    total += 5;
+                }
+                if (givenNumber.charAt( i + 1 ) == 'X') {
+                    total += 10;
+                }
+                if (givenNumber.charAt( i + 1 ) == 'C') {
+                    total += 500;
+                }
+                if (givenNumber.charAt( i + 1 ) == 'M') {
+                    total += 1000;
+                }
 
             }
 
-        } System.out.println( total );
+        }
+        System.out.println( total );
     }
 }
