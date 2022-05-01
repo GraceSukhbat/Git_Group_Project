@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Q33_Mix_of_2Strings {
     public static void main(String[] args) {
-              /*     33. Write a Java program to find all interleavings of given strings. Go to the editor
+   /*     33. Write a Java program to find all interleavings of given strings. Go to the editor
 
         Sample Output:
 
@@ -30,12 +30,15 @@ public class Q33_Mix_of_2Strings {
         list.addAll( List.of( split1 ) );
         list.addAll( List.of( split2 ) );
         int count = 0;
-        for (int j = 0; j <= 3; j++) {
-            for (int i = 0; i < 3; i++) {
-                Collections.swap( list, i, i + 1 );
-                count++;
-                System.out.println( count + " " + list );
-                list2.addAll( list );
+        for (int k = 0; k < 2; k++) {
+            for (int j = 0; j <= 3; j++) {
+                for (int i = 0; i < 3; i++) {
+                    Collections.swap( list, i, i + 1 );
+                    count++;
+                    System.out.println( count );
+                    System.out.println( list );
+
+                }
             }
         }
     }
