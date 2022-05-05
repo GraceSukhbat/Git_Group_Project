@@ -1,11 +1,11 @@
 package Extra_Tasks;
 
-public class stringSplosion {
+public class QCB_stringSplosion {
     /*
 Given a non-empty string like "Code" return a string like "CCoCodCode".
-stringSplosion("Code") → "CCoCodCode"
-stringSplosion("abc") → "aababc"
-stringSplosion("ab") → "aab"
+QCB_stringSplosion("Code") → "CCoCodCode"
+QCB_stringSplosion("abc") → "aababc"
+QCB_stringSplosion("ab") → "aab"
      */
     public static String stringSplosion(String str) {
         String stringSplosion = "";
