@@ -6,11 +6,11 @@ public class Q24_ReplaceChar {
 24. Write a Java program to replace a specified character with another character. Go to the editor
 Sample Output:
 
-Original string: The quick brown fox jumps over the lazy dog.
+Original string: The quick brown fox jumps over the lazy Dog.
 New String: The quick brown fox jumps over the lazy fog.
          */
 
-        String str = "The quick brown fox jumps over the lazy dog";
+        String str = "The quick brown fox jumps over the lazy Dog";
 
         char specifiedChar = 'd';
         char replacedChar = 'f';
